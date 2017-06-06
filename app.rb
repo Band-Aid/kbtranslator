@@ -1,6 +1,5 @@
 require 'nokogiri'
 require 'rest-client'
-require 'JSON'
 require 'easy_translate'
 require 'sinatra'
 
