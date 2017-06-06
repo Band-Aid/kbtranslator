@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'sinatra'
 gem 'rest-client'
-gem 'JSON'
 gem 'nokogiri'
 gem 'easy_translate', :git => 'https://github.com/seejohnrun/easy_translate.git'
