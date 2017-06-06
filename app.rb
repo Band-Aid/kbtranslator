@@ -26,10 +26,11 @@ end
 
 to_parse = File.read("out.txt")
 EasyTranslate.api_key = ''
-outcome = EasyTranslate.translate([to_parse], :to => :japanese)
+@outcome = EasyTranslate.translate([to_parse], :to => :japanese)
 
-File.open("views/outcome1.erb",'w') {|f| f.write(outcome)}
-
-erb :outcome1
+#File.open("views/outcome1.erb",'w') {|f| f.write(outcome)}
+#erb :outcome1
+    
+return erb :results
 
 end
